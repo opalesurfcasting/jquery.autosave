@@ -1,5 +1,5 @@
 # jquery, jquery.autosave - SPIP 3.1.x and above
-Canonicalize javascript prive/javascript/jquery.autosave.js
+Canonicalize SPIP javascript prive/javascript/jquery.autosave.js
 using [jsDelivr Github CDN](https://www.jsdelivr.com/feature) and [mod_pagespeed](https://www.modpagespeed.com/doc/filter-canonicalize-js).
 
 ## In Apache pagespeed.conf:
