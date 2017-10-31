@@ -15,6 +15,10 @@ This will enable canonicalization for jquery.js (1.12.4 in SPIP 3.1.x) using goo
  ```
  will enable canicalization for jquery.autosave.js, also based on file size 741 and checksum. This is needed as this file is not in default mod_pagespeed [canonicalized libraries list](https://github.com/pagespeed/mod_pagespeed/blob/master/net/instaweb/genfiles/conf/pagespeed_libraries.conf).
  
+ ## Find the size and checksum :
+ 
+ `pagespeed_js_minify --print_size_and_hash library.js` - [Find the size and checksum](https://www.modpagespeed.com/doc/filter-canonicalize-js)
+ 
 ## Direct urls :
  
  raw : https://cdn.jsdelivr.net/gh/opalesurfcasting/jquery.autosave@v1.0/jquery.autosave.js
