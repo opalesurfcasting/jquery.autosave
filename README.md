@@ -8,10 +8,12 @@ This will enable canonicalization for jquery.js (1.12.4 in SPIP 3.1.x) using goo
  ```
  ModPagespeedEnableFilters canonicalize_javascript_libraries
  ```
+ Adding this :
  ```
  ModPagespeedLibrary 741 Ppl_Ry-HtT_ZvQ-n3zm_Q \
  //cdn.jsdelivr.net/gh/opalesurfcasting/jquery.autosave@v1.0/jquery.autosave.min.js
  ```
+ will enable canicalization for jquery.autosave.js
  
 ## Direct urls :
  
