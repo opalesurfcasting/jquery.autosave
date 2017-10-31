@@ -1,8 +1,10 @@
-# jquery.autosave - SPIP 3.1.x and above
+# jquery, jquery.autosave - SPIP 3.1.x and above
 Canonicalize javascript prive/javascript/jquery.autosave.js
 using [jsDelivr Github CDN](https://www.jsdelivr.com/feature) and [mod_pagespeed](https://github.com/pagespeed/mod_pagespeed).
 
 ## Apache pagespeed.conf:
+
+This will enable canonicalization for jquery.js (1.12.4 in SPIP 3.1.x) using googleapi CDN :
  ```
  ModPagespeedEnableFilters canonicalize_javascript_libraries
  ```
